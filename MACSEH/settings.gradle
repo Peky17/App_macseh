@@ -1,0 +1,2 @@
+rootProject.name='MACSEH'
+include ':app', ':hellocharts-library-1.5.8'

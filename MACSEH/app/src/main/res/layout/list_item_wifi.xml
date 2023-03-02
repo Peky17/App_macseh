@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <ImageView
+        android:id="@+id/ImageView_Imagen_producto"
+        android:layout_width="88dp"
+        android:layout_height="85dp"
+        android:layout_alignTop="@+id/ImageView_Delete"
+        android:layout_marginTop="-23dp"
+        android:src="@drawable/ic_wifi_black" />
+
+    <TextView
+        android:id="@+id/txtWifiName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/TV_Precio_Producto"
+        android:layout_alignLeft="@+id/TV_Precio_Producto"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:text="SSID"
+        android:textColor="@color/design_default_color_on_secondary"
+        android:textSize="23sp" />
+
+    <TextView
+        android:id="@+id/TV_Precio_Producto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/ImageView_Imagen_producto"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="36dp"
+        android:layout_toEndOf="@+id/ImageView_Imagen_producto"
+        android:layout_toRightOf="@+id/ImageView_Imagen_producto"
+        android:text=""
+        android:textColor="@color/colorAccent"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/ImageView_Add"
+        android:layout_width="47dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="0dp"
+        android:layout_toLeftOf="@id/ImageView_Delete"
+        />
+
+    <ImageView
+        android:id="@+id/ImageView_Delete"
+        android:layout_width="47dp"
+        android:layout_height="43dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="21dp"
+        />
+
+</RelativeLayout>

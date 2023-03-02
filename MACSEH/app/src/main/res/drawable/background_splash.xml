@@ -1,0 +1,15 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent">
+<item android:drawable="@color/backgroung_Splash" />
+<item
+    android:width="90dp"
+    android:height="90dp"
+    android:gravity="center">
+    <bitmap
+        android:gravity="center"
+        android:src="@drawable/logo"/>
+</item>
+
+</layer-list>
+

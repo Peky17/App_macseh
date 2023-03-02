@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/textPrimary">
+
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@color/colorPrimaryDark"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="CONECTAR DISPOSITIVO MACSEH A MI RED"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        tools:ignore="RtlCompat" />
+
+    <RelativeLayout
+        android:id="@+id/body"
+        android:layout_width="match_parent"
+        android:layout_height="320dp"
+        android:layout_below="@+id/title"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="-2dp"
+        android:background="@color/design_default_color_background"
+        android:paddingBottom="16dp">
+
+        <ImageButton
+            android:id="@+id/image"
+            android:layout_width="239dp"
+            android:layout_height="223dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:background="#00FFFFFF"
+            android:contentDescription="image"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_wifi_black" />
+
+        <TextView
+            android:id="@+id/TV_Descripcion_producto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/image"
+            android:layout_marginTop="19dp"
+            android:gravity="center"
+            android:text="Dispositivo MACSEH vinculado con exito"
+            android:textAlignment="center"
+            android:textColor="@color/colorAccent"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/TV_question"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/TV_Descripcion_producto"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:text="¿Desea conectarlo a su red domestica?"
+            android:textAlignment="center"
+            android:textColor="@color/colorAccent"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

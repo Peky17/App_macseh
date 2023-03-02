@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="115dp"
+        android:background="@color/backgroung_Splash">
+
+        <TextView
+            android:id="@+id/TV_Serial_Enchufe_Premium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/TV_Precio_Producto"
+            android:layout_alignLeft="@+id/TV_Precio_Producto"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="-10dp"
+            android:layout_marginLeft="-10dp"
+            android:layout_marginTop="38dp"
+            android:text="Serial"
+            android:textColor="@color/design_default_color_on_secondary"
+            android:textSize="15dp" />
+
+        <ImageView
+            android:id="@+id/ImageView_Imagen_producto"
+            android:layout_width="100dp"
+            android:layout_height="96dp"
+            android:layout_marginTop="0dp"
+            android:src="@drawable/ic_power_black" />
+
+        <TextView
+            android:id="@+id/TV_Precio_Producto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/ImageView_Imagen_producto"
+            android:layout_marginStart="-3dp"
+            android:layout_marginLeft="-3dp"
+            android:layout_marginBottom="36dp"
+            android:layout_toEndOf="@+id/ImageView_Imagen_producto"
+            android:layout_toRightOf="@+id/ImageView_Imagen_producto"
+            android:text=""
+            android:textColor="@color/colorAccent"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/ImageView_Mostrar_Enchufe_Premium"
+            android:layout_width="36dp"
+            android:layout_height="33dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="11dp"
+            app:srcCompat="@drawable/ic_remove_red_eye_black_24dp" />
+
+        <TextView
+            android:id="@+id/TV_Nombre_Enchufe_Premium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/TV_Precio_Producto"
+            android:layout_alignLeft="@+id/TV_Precio_Producto"
+            android:layout_marginStart="-9dp"
+            android:layout_marginLeft="-9dp"
+            android:layout_marginTop="10dp"
+            android:text="Nombre"
+            android:textColor="@color/design_default_color_on_secondary"
+            android:textSize="20dp" />
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>
